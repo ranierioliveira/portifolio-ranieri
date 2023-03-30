@@ -15,7 +15,7 @@ font-family: 'Sarala', sans-serif;
 }
 .cabecalho{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     font-family: 'Sarala', sans-serif;
     padding: 32px;
@@ -36,7 +36,7 @@ h1{
 }
 ul li{
     list-style-type: none;
-    font-size: 18px;
+    font-size: 1.3em;
     width: 250px;
 }
 .link-menu{
@@ -44,11 +44,12 @@ ul li{
     transition: .5 ease-in-out;
 }
 .link-menu:hover{
-    text-decoration: underline;
+    font-weight: bold;
  
 }
 .conteudo-principal{
     background-color: #3C4F76;
+    height: 88vh;
 
 }
 .conteudo-principal{
@@ -64,8 +65,9 @@ ul li{
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+    margin-top: 80px;
 
-    width: 600px;
+    width: 800px;
 }
 .menu-escrito-titulo{
     font-size: 2.5em;
@@ -81,8 +83,10 @@ ul li{
     font-family: 'Sarala', sans-serif;
     color: #E0E0E7;
     font-size: 1.2em;
+    
 }
 .menu-escrito-titulo-redes{
+    margin-top: 64px;
     font-size: 1.5em;
     color: #E0E0E7;
     font-family: 'Sarala', sans-serif;
@@ -116,12 +120,99 @@ ul li{
 }
 .imagem-de-perfil{
     border-radius: 50%;
+    margin-bottom: 80px;
+    
 }
 .apresentacao-projetos{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 64px 0;
+    background-color: #dfd3cb;
+    font-family: 'Sarala', sans-serif;
+    font-size: 1.2em;
 }
-footer{
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    
+
     background-color: #3C4F76;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 48px;
+    background-image: url('../img/');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.card-texto{
+    width: 40vw;
+}
+.card-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-wrapper::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid #E0E0E7;
+    transition: .5s ease-in-out;
+}
+.card-wrapper h2{
+    margin: 0;
+    font-size: 2em;
+}
+.card-wrapper p{
+    visibility: visible;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    font-size: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.card:hover{
+    filter: unset;
+}
+.card:hover > .card-wrapper::before{
+    height: 250px;
+    width: 250px;
+}
+.card:hover > .card-wrapper p{
+    visibility: visible;
+    font-size: 16px;
+    opacity: 1;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Sarala', sans-serif;
+    font-size: 1.2em;
+    color: #E0E0E7;
+    background-color: #D1BEB0;
+    color: #383F51;
+    
+    width: 100vw;
+    height: 80px;
 }
