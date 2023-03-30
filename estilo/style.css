@@ -4,6 +4,7 @@
 /*font-family: 'Righteous', cursive;
 font-family: 'Sarala', sans-serif;
 */
+/* paleta de cores: #30343D, #E0E0E7, #3C4F76, #D1BEB0 */
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
@@ -209,8 +210,7 @@ ul li{
 
     font-family: 'Sarala', sans-serif;
     font-size: 1.2em;
-    color: #E0E0E7;
-    background-color: #D1BEB0;
+    background-color: #dfd3cb;
     color: #383F51;
     
     width: 100vw;
