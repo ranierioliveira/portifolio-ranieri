@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+
+/*font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Sarala', sans-serif;
+    padding: 32px;
+    background-color: #383F51;
+    color: #E0E0E7;
+}
+h1{
+    font-family: 'Righteous', cursive;
+    
+}
+.lista-topicos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 800px;
+    
+}
+ul li{
+    list-style-type: none;
+    font-size: 18px;
+    width: 250px;
+}
+.link-menu{
+    color: #E0E0E7;
+    transition: .5 ease-in-out;
+}
+.link-menu:hover{
+    text-decoration: underline;
+ 
+}
+.conteudo-principal{
+    background-color: #3C4F76;
+
+}
+.conteudo-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 64px;
+
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    width: 600px;
+}
+.menu-escrito-titulo{
+    font-size: 2.5em;
+    font-family: 'Righteous', cursive;
+    color: #E0E0E7;
+}
+.menu-escrito-titulo-secundario{
+    font-size: 2em;
+    color: #D1BEB0;
+    font-family: 'Sarala', sans-serif;
+}
+.menu-escrito-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    color: #E0E0E7;
+    font-size: 1.2em;
+}
+.menu-escrito-titulo-redes{
+    font-size: 1.5em;
+    color: #E0E0E7;
+    font-family: 'Sarala', sans-serif;
+    align-self: center;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    
+    width: 100%;
+}
+.social-media a{
+    width: 200px;
+    height: 32px;
+    background-color: #3C4F76;
+    border: 1px solid #E0E0E7;
+    border-radius: 8px;
+    color: #E0E0E7;
+    text-align: center;
+    line-height: 32px;
+    transition: .5s ease-in-out;
+}
+.social-media a:hover{
+    width: 200px;
+    height: 32px;
+    background-color: #E0E0E7;
+    border: 1px solid #3C4F76;
+    color: #3C4F76;
+}
+.imagem-de-perfil{
+    border-radius: 50%;
+}
+.apresentacao-projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer{
+    background-color: #3C4F76;
+}
