@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+/* //#3C4F76 */
+
+@media screen and (max-width: 768px){
+    .cabecalho{
+        flex-direction: column;
+        background-color: #3C4F76;
+        justify-content: space-between;
+        padding: 32px 0px 0px 0px;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    span.material-symbols-outlined{
+        display: block;
+        color: white;
+        background-color: #383F51;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+    } 
+    #menu{
+        display: none;
+        flex-direction: column;
+        gap: 0px;
+        width: 100vw;
+        text-align: center;
+    }
+    #menu li{
+        padding: 8px 0px;
+        border-top: .5px solid white;
+        width: 100vw;
+        background-color: #383F51;
+    }
+    .imagem-de-perfil{
+        display: none;
+    }
+    .conteudo-principal{
+        padding-top: 0px;
+    }
+    .conteudo-principal-escrito{
+        margin-top: 0px;
+        gap: 16px;
+        padding-top: 0px;
+    }
+    .menu-escrito-titulo-redes{
+        margin-top: 24px;
+    }
+    .apresentacao-projetos{
+        gap: 80px 0px;
+        align-items: center;
+    }
+    .card-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+    }
+    .card{
+        height: 100px;
+        width: 100px;
+        margin-top: 0px;
+    }
+    .card-texto{
+        width: 60vw;
+    }
+    .card:hover > .card-wrapper::before{
+        height: 150px;
+        width: 150px;
+    }
+    .card-wrapper h2{
+        font-size: 1em;
+    }
+}
+    

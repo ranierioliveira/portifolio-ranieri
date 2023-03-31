@@ -23,17 +23,19 @@ font-family: 'Sarala', sans-serif;
     background-color: #383F51;
     color: #E0E0E7;
 }
+span.material-symbols-outlined{
+    display: none;
+}
 h1{
     font-family: 'Righteous', cursive;
     
 }
-.lista-topicos{
+#menu{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     width: 800px;
-    
 }
 ul li{
     list-style-type: none;
