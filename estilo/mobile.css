@@ -21,7 +21,7 @@
         font-size: 1em;
     }
     .menu-escrito-paragrafo{
-        font-size: 0.8em;
+        font-size: 0.9em;
         
     }
     .menu-escrito-titulo-redes{
@@ -48,12 +48,13 @@
         border-top: .5px solid white;
         width: 100vw;
         background-color: #383F51;
+        font-size: 1em;
     }
     .imagem-de-perfil{
         display: none;
     }
     .conteudo-principal{
-        padding-top: 0px;
+        padding-top: 24pxpx;
     }
     .conteudo-principal-escrito{
         margin-top: 0px;
@@ -80,12 +81,14 @@
     .card-texto{
         width: 60vw;
     }
-    .card:hover > .card-wrapper::before{
-        height: 150px;
-        width: 150px;
+    .card-wrapper::before{
+        display: none;
     }
     .card-wrapper h2{
         font-size: 1em;
+    }
+    .card-texto p{
+        font-size: 0.9em;
     }
 }
 
