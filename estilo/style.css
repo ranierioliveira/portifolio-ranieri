@@ -121,6 +121,20 @@ ul li{
     border: 1px solid #3C4F76;
     color: #3C4F76;
 }
+.social-media a:hover > #logolnk{
+    color: #383F51;
+}
+.social-media a:hover > #logogit{
+    color: #383F51;
+}
+#logolnk{
+    color: #E0E0E7;
+    margin-right: 8px;
+}
+#logogit{
+    color: #E0E0E7;
+    margin-right: 8px;
+}
 .imagem-de-perfil{
     border-radius: 50%;
     margin-bottom: 80px;
@@ -129,11 +143,15 @@ ul li{
 .apresentacao-projetos{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
     padding: 64px 0;
     background-color: #dfd3cb;
     font-family: 'Sarala', sans-serif;
     font-size: 1.2em;
+}
+.titulo-projetos{
+    color: #383F51;
 }
 .card-container{
     display: flex;
@@ -220,6 +238,16 @@ ul li{
     font-size: 24px;
     opacity: 1;
 }
+.veja-mais{
+    margin-top: 24px;
+    color: #3C4F76;
+}
+.veja-mais a:hover{
+    text-decoration: underline;
+}
+.veja-mais a:visited{
+    color: #3C4F76;
+}
 .rodape{
     display: flex;
     justify-content: center;
@@ -231,5 +259,5 @@ ul li{
     color: #383F51;
     
     width: 100vw;
-    height: 80px;
+    height: 40px;
 }
