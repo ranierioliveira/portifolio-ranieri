@@ -151,7 +151,6 @@ ul li{
     height: 300px;
     border-radius: 50%;
     margin-top: 48px;
-    background-image: url('../img/');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,6 +158,26 @@ ul li{
     cursor: pointer;
     transition: 0.5s ease-in-out;
 
+}
+#primeiro{
+    background-image: url('../img/cadastro-dev.png');
+}
+#segundo{
+    background-image: url('../img/balle-robot.png');
+}
+#terceiro{
+    background-image: url('../img/projeto-android.png');
+}
+#primeiro p{
+    color: #383F51;
+    background-color: white;
+}
+#segundo p{
+    color: #E0E0E7;
+}
+#terceiro p{
+    color: #383F51;
+    background-color: white;
 }
 .card-texto{
     width: 40vw;
@@ -181,10 +200,6 @@ ul li{
     border: 1px solid #E0E0E7;
     transition: .5s ease-in-out;
 }
-.card-wrapper h2{
-    margin: 0;
-    font-size: 2em;
-}
 .card-wrapper p{
     visibility: visible;
     opacity: 0;
@@ -202,7 +217,7 @@ ul li{
 }
 .card:hover > .card-wrapper p{
     visibility: visible;
-    font-size: 16px;
+    font-size: 24px;
     opacity: 1;
 }
 .rodape{
