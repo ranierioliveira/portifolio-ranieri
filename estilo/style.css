@@ -50,12 +50,9 @@ ul li{
     font-weight: bold;
  
 }
-.conteudo-principal{
-    background-color: red;
+#conteudo-principal{
+    background-color: #3C4F76;
     height: 88vh;
-
-}
-.conteudo-principal{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -140,7 +137,7 @@ ul li{
     margin-bottom: 80px;
     
 }
-.apresentacao-projetos{
+#apresentacao-projetos{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -248,6 +245,30 @@ ul li{
 .veja-mais a:visited{
     color: #3C4F76;
 }
+#formacao{
+    font-family: 'Sarala', sans-serif;
+    font-size: 1.3em;
+    background-color: #3C4F76;
+    padding: 64px 0;
+    color: #E0E0E7;
+}
+.titulo-formacao{
+    text-align: center;
+    color: #E0E0E7;
+}
+.texto-formacao{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagem-da-infnet{
+    width: 250px;
+}
+
+
+
+
 .rodape{
     display: flex;
     justify-content: center;

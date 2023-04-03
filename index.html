@@ -20,16 +20,16 @@
             </span>
         <nav>
             <ul id="menu">
-                <li><a href="#" class="link-menu">Sobre</a></li>
-                <li><a href="#" class="link-menu">Projetos</a></li>
-                <li><a href="#" class="link-menu">Formação</a></li>
+                <li><a href="#conteudo-principal" class="link-menu">Sobre</a></li>
+                <li><a href="#apresentacao-projetos" class="link-menu">Projetos</a></li>
+                <li><a href="#formacao" class="link-menu">Formação</a></li>
                 <li><a href="#" class="link-menu">Habilidades</a></li>
                 <li><a href="#" class="link-menu">Certificados</a></li>
             </ul>
         </nav>
     </header>
     <main class="principal">
-        <section class="conteudo-principal">
+        <section id="conteudo-principal">
             <div class="conteudo-principal-escrito">
                <h2 class="menu-escrito-titulo">Ranieri Oliveira</h2>
                <h3 class="menu-escrito-titulo-secundario">Estudante de Análise e Desenvolvimento de Sistemas</h3>
@@ -44,7 +44,7 @@
             </div>
             <img src="img/fotoperfil5.png" alt="minha imagem" class="imagem-de-perfil">
         </section>
-        <section class="apresentacao-projetos">
+        <section id="apresentacao-projetos">
             <h2 class="titulo-projetos">Alguns projetos</h2>
             <div class="card-container">
                 <a href="https://ranierioliveira.github.io/cadastro-dev/" target="_blank">
@@ -84,12 +84,27 @@
                 </div>
             </div>
             <h3 class="veja-mais"><a href="https://github.com/ranierioliveira" target="_blank">Veja mais clicando aqui</a></h3>
+        </section>
+
+        <section id="formacao">
+            <h2 class="titulo-formacao">Formação</h2>
+            <div class="texto-formacao">
+                <div class="faculdade">
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                    <p>Tecnólogo - Instituto-INFNET</p>
+                    <p>(Jan/2023 - Jun/2025)</p>
+                </div>
+                <div>
+                    <img src="img/infnet.png" alt="logo da INFNET" class="imagem-da-infnet">
+                </div>
+            </div>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidade</h2>
             
         </section>
     </main>
-    <footer class="rodape">
-        <p>Feito por Ranieri Oliveira</p>
-    </footer>
+  
     <script>
         function clickBurguer() {
             if (menu.style.display == 'flex') {
