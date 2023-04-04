@@ -14,7 +14,7 @@
         text-align: center;
         margin-bottom: 32px;
     }
-    .menu-escrito-titulo{
+    .menu-escrito-titulo {
         font-size: 1.5em;
     }
     .menu-escrito-titulo-secundario{
@@ -54,7 +54,7 @@
         display: none;
     }
     .conteudo-principal{
-        padding-top: 24pxpx;
+        padding-top: 24px;
     }
     .conteudo-principal-escrito{
         margin-top: 0px;
@@ -67,7 +67,7 @@
     #apresentacao-projetos{
         gap: 80px 0px;
     }
-    .titulo-projetos{
+    .titulo-projetos, .titulo-formacao, .titulo-habilidades, .titulo-experiencia{
         font-size: 1.3em;
     }
     .card-container{
@@ -92,12 +92,42 @@
     .veja-mais{
         font-size: 1em;
     }
-    .rodape{
+    .texto-formacao{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .faculdade-titulo, .experiencia-titulo{
+        font-size: 1em;
+    }
+    .faculdade-paragrafo, .experiencia-paragrafo{
+        font-size: 0.9em;
+    }
+    .imagem-da-infnet{
+        width: 150px;
+    }
+    .container-habilidades{
+        flex-wrap: wrap;
+        gap: 8px;
+        width: 80vw;
+    }
+    .cards-habilidades{
+        width: 150px;
+        height: 150px;
+    }
+    .experiencia1{
+        width: 80vw;
+        margin: auto;
+    }
+    #rodape{
         font-size: 1em;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        font-size: 0.9em;
+    }
     .cabecalho{
         justify-content: space-between;
 
