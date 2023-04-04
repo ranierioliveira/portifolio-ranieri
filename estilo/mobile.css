@@ -112,8 +112,9 @@
         width: 80vw;
     }
     .cards-habilidades{
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
+        font-size: 0.7em;
     }
     .experiencia1{
         width: 80vw;
