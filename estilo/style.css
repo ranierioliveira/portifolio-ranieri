@@ -238,6 +238,7 @@ ul li{
 .veja-mais{
     margin-top: 24px;
     color: #3C4F76;
+    font-size: 18px;
 }
 .veja-mais a:hover{
     text-decoration: underline;
@@ -248,13 +249,20 @@ ul li{
 #formacao{
     font-family: 'Sarala', sans-serif;
     font-size: 1.3em;
-    background-color: #3C4F76;
+    background-color: #dfd3cb;
     padding: 64px 0;
-    color: #E0E0E7;
+    color: #3C4F76;
+    
+
 }
 .titulo-formacao{
+    margin: auto;
     text-align: center;
-    color: #E0E0E7;
+    color: #3C4F76;
+    width: 250px;
+    border-top: 0.3px solid #3C4F76;
+    padding-top: 64px;
+    
 }
 .texto-formacao{
     height: 60vh;
