@@ -167,4 +167,12 @@
         height: 150px;
         width: 150px;
     }
+    .imagem-da-infnet{
+        width: 150px;
+    }
+    .container-habilidades{
+        flex-wrap: wrap;
+        gap: 8px;
+        width: 80vw;
+    }
 } 
