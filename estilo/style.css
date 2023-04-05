@@ -22,6 +22,7 @@ font-family: 'Sarala', sans-serif;
     padding: 32px;
     background-color: #383F51;
     color: #E0E0E7;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
 }
 span.material-symbols-outlined{
     display: none;
@@ -52,11 +53,10 @@ ul li{
 }
 #conteudo-principal{
     background-color: #3C4F76;
-    height: 88vh;
+    height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
     padding: 64px;
 
 }
@@ -73,11 +73,13 @@ ul li{
     font-size: 2.5em;
     font-family: 'Righteous', cursive;
     color: #E0E0E7;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
 }
 .menu-escrito-titulo-secundario{
     font-size: 2em;
     color: #D1BEB0;
     font-family: 'Sarala', sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
 }
 .menu-escrito-paragrafo{
     font-family: 'Sarala', sans-serif;
@@ -110,6 +112,7 @@ ul li{
     text-align: center;
     line-height: 32px;
     transition: .5s ease-in-out;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.185);
 }
 .social-media a:hover{
     width: 200px;
@@ -135,7 +138,7 @@ ul li{
 .imagem-de-perfil{
     border-radius: 50%;
     margin-bottom: 80px;
-    
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.185);
 }
 #apresentacao-projetos{
     display: flex;
@@ -171,6 +174,7 @@ ul li{
     background-repeat: no-repeat;
     filter: grayscale(0.5);
     cursor: pointer;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.185);
     transition: 0.5s ease-in-out;
 
 }
@@ -267,7 +271,7 @@ ul li{
 .texto-formacao{
     height: 60vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 80vw;
     margin: auto;
@@ -290,7 +294,7 @@ ul li{
     justify-content: space-between;
     align-items: center;
     height: 80vh;
-    width: 1000px;
+    width: 80vw;
     margin: auto;
 }
 .cards-habilidades{
@@ -305,7 +309,7 @@ ul li{
     border-radius: 16px;
     border: 0.3px solid #E0E0E7;
     text-align: center;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.514);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.185);
 }
 .cards-habilidades:hover{
     border: none;
@@ -326,11 +330,14 @@ ul li{
 }
 .experiencia1{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
+    width: 80vw;
     height: 60vh;
+    margin: auto;
+}
+span.material-icons{
+    font-size: 4em;
 }
 .experiencia1 h3{
     border-bottom: 1px solid #383F51;

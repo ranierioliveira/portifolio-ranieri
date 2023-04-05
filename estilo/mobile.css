@@ -124,8 +124,9 @@
         font-size: 0.7em;
     }
     .experiencia1{
-        width: 80vw;
-        margin: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
     }
     #rodape{
         font-size: 1em;
