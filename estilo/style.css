@@ -22,7 +22,7 @@ font-family: 'Sarala', sans-serif;
     padding: 32px;
     background-color: #383F51;
     color: #E0E0E7;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.418);
 }
 span.material-symbols-outlined{
     display: none;
@@ -73,13 +73,13 @@ ul li{
     font-size: 2.5em;
     font-family: 'Righteous', cursive;
     color: #E0E0E7;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.418);
 }
 .menu-escrito-titulo-secundario{
     font-size: 2em;
     color: #D1BEB0;
     font-family: 'Sarala', sans-serif;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.418);
 }
 .menu-escrito-paragrafo{
     font-family: 'Sarala', sans-serif;
