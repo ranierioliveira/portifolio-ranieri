@@ -269,6 +269,8 @@ ul li{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 80vw;
+    margin: auto;
 }
 .imagem-da-infnet{
     width: 250px;
@@ -317,7 +319,7 @@ ul li{
     color: #383F51;
     font-size: 1.3em;
     padding: 64px 0px;
-    height: 70vh;
+    height: 90vh;
 }
 .titulo-experiencia{
     text-align: center;

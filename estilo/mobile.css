@@ -10,6 +10,9 @@
         justify-content: space-between;
         padding: 32px 0px 0px 0px;
     }
+    .conteudo-principal{
+        width: 80vw;
+    }
     h1{
         text-align: center;
         margin-bottom: 32px;
@@ -18,10 +21,10 @@
         font-size: 1.5em;
     }
     .menu-escrito-titulo-secundario{
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .menu-escrito-paragrafo{
-        font-size: 0.9em;
+        font-size: 1em;
         
     }
     .menu-escrito-titulo-redes{
@@ -66,9 +69,13 @@
     }
     #apresentacao-projetos{
         gap: 80px 0px;
+        font-size: 1.1em;
+    }
+    .card-texto{
+        width: 80vw;
     }
     .titulo-projetos, .titulo-formacao, .titulo-habilidades, .titulo-experiencia{
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
     .card-container{
         flex-direction: column;
