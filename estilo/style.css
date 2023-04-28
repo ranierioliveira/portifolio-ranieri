@@ -18,10 +18,16 @@ font-family: 'Sarala', sans-serif;
     display: flex;
     justify-content: space-around;
 
+    overflow: hidden;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+
     font-family: 'Sarala', sans-serif;
     padding: 32px;
     background-color: #383F51;
     color: #E0E0E7;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.418);
 }
 span.material-symbols-outlined{
@@ -35,7 +41,6 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     width: 800px;
 }
 ul li{
@@ -53,7 +58,7 @@ ul li{
 }
 #conteudo-principal{
     background-color: #3C4F76;
-    height: 100vh;
+    height: 1000px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -66,7 +71,6 @@ ul li{
     align-items: flex-start;
     gap: 16px;
     margin-top: 80px;
-
     width: 800px;
 }
 .menu-escrito-titulo{
@@ -256,8 +260,6 @@ ul li{
     background-color: #dfd3cb;
     padding: 64px 0;
     color: #3C4F76;
-    
-
 }
 .titulo-formacao{
     margin: auto;
@@ -266,14 +268,13 @@ ul li{
     width: 250px;
     border-top: 0.3px solid #3C4F76;
     padding-top: 64px;
-    
 }
 .texto-formacao{
-    height: 60vh;
+    height: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80vw;
+    width: 60vw;
     margin: auto;
 }
 .imagem-da-infnet{
@@ -293,8 +294,8 @@ ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80vh;
-    width: 80vw;
+    height: 650px;
+    width: 1000px;
     margin: auto;
 }
 .cards-habilidades{
@@ -303,7 +304,6 @@ ul li{
     justify-content: center;
     align-items: center;
     gap: 16px;
-
     height: 200px;
     width: 180px;
     border-radius: 16px;
@@ -323,7 +323,7 @@ ul li{
     color: #383F51;
     font-size: 1.3em;
     padding: 64px 0px;
-    height: 90vh;
+    height: 700px;
 }
 .titulo-experiencia{
     text-align: center;
@@ -332,9 +332,9 @@ ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80vw;
-    height: 60vh;
-    margin: auto;
+    width: 60vw;
+    height: 400px;
+    margin: 0 auto;
 }
 span.material-icons{
     font-size: 4em;
