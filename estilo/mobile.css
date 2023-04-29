@@ -155,8 +155,6 @@
     }
     #conteudo-principal{
         padding-bottom: 96px;
-        height: 100vh;
-
     }
     .imagem-de-perfil{
         width: 250px;
@@ -183,7 +181,7 @@
         flex-wrap: wrap;
         gap: 8px;
         width: 80vw;
-        height: 100vh;
+        height: 500px;
     }
     .cards-habilidades{
         width: 130px;
